@@ -1,0 +1,19 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="stk.starterkit1.controller.AddCustomer" displayBlock="true"> 
+    <Page xmlns:cd="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" id="addCustomer"
+     title="Add Customer">
+
+        <Button id="_IDGenButton1" icon= "x" text="Create" type="Accept" press="onPressCreate" ariaLabelledBy="editButtonLabel"/>
+
+		<InputListItem id="CustomerID" label="Customer ID:">
+			<Input id="_IDGenInput1"
+				placeholder="ID:" />
+		</InputListItem>
+	
+    	<InputListItem id="CustomerName" label="Customer Name:">
+			<Input id="_IDGenInput2"
+				placeholder="Name:"  />
+		</InputListItem>
+         
+
+    </Page>
+</mvc:View>

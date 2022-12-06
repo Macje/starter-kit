@@ -1,0 +1,8 @@
+/* Enter your custom styles here */
+.carouselBG {
+    background: rgb(170, 170, 249);
+}
+
+.redText tr:nth-child(odd)   {
+    background-color:rgb(230, 230, 230)
+}
