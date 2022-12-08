@@ -27,7 +27,7 @@
                     </Column>
                 </columns>
                 <items>
-                    <ColumnListItem id="_IDGenColumnListItem1">
+                    <ColumnListItem id="_IDGenColumnListItem1" type="Navigation" press = "onCustomerPress">
                         <Text id="_IDGenText1" text="{CompanyName}"/>
                         <Text id="_IDGenText2" text="{Country}"/>
                     </ColumnListItem>
