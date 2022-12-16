@@ -1,21 +1,4 @@
-<!-- <core:FragmentDefinition 
-    xmlns = "sap.m" 
-    xmlns:l="sap.ui.layout"
-	xmlns:f="sap.ui.layout.form"
-    xmlns:core="sap.ui.core">
-    <Dialog id="contactDialog" title="{i18n>contactDetails}"></Dialog>
-
- 
-	 
-
-</core:FragmentDefinition> -->
-
-
-
-
-
-
-<core:FragmentDefinition
+ <core:FragmentDefinition
 	xmlns="sap.m"
 	xmlns:l="sap.ui.layout"
 	xmlns:f="sap.ui.layout.form"
@@ -26,17 +9,17 @@
 			editable="false"
 			layout="ColumnLayout">
 			<f:content>
-				<Label id="_IDGenLabel4" text="Name:" />
-				<Text id="_IDnameText" text="{ContactName}" />
-				<Label id="_IDGenLabel5" text="Contact Title:" />
+				<Label id="_IDGenLabel4" text="Name" />
+				<Text id="_IDnameText" text="{City}" />
+				<Label id="_IDGenLabel5" text="Contact Title" />
 				<Text id="_IDGenText4" text="{ContactTitle}" />
-				<Label id="_IDGenLabel6" text="Address:" />
+				<Label id="_IDGenLabel6" text="Address" />
 				<Text id="_IDGenText5" text="{Address} {City}" />
-				<Label id="_IDGenLabel7" text="Phone:" />
+				<Label id="_IDGenLabel7" text="Phone" />
 				<Text id="countryText" text="{Phone}" />
 			</f:content> 
 		</f:SimpleForm>
-				<Button id="_IDGenButton2" type="Back"
+				<Button id="_IDGenButton2" type="Reject"
 						text="Close"
 						press="onPressClose"
 						ariaDescribedBy="rejectButtonDescription genericButtonDescription">
